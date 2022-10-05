@@ -1,0 +1,54 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 5px solid black;
+}
+.header{
+    width: 100%;
+    border-bottom: 5px solid black;
+    overflow: hidden;
+}
+.col-1{
+  float: left;
+    width: 78%;
+
+}
+.col-2{
+float: right;
+    
+    width: 19%;
+}
+.image-box{
+    width: 150px;
+}
+.image-box img{
+    width: 100%;
+}
+
+.education{
+    width: 100%;
+}
+.education-box{
+    width: 99.75%;
+    height: 15px;
+    border: 1px solid black;
+}
+.education-body{
+    display: table;
+    width: 100%;
+}
+.education-body .col-3 {
+    display: table-cell;
+    padding: 10px;
+    width: 40%;
+    border-right: 1px solid black;
+}
+.education-body .col-3 h2{
+    text-align: auto;
+
+}
+.education-body .col-4{
+    display: table-cell;
+    padding: 10px;
+    width: 60%;
+}
